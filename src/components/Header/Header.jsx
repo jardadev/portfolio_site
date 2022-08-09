@@ -29,6 +29,7 @@ const Header = () => {
 					</div>
 					<div>
 						<h6>Connect With Me:</h6>
+						<hr />
 						<div className='socials'>
 							<a href='https://www.linkedin.com/in/jardacs/'>
 								<BsLinkedin size={24} />
