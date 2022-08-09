@@ -18,7 +18,7 @@ const Header = () => {
 				</Col>
 				<Col className='header-content'>
 					{/* TODO: Span className */}
-					<h1>
+					<h1 className='header-title'>
 						Hello, I'm <span>Aaron Johnson</span>.
 					</h1>
 					<div>
