@@ -1,5 +1,5 @@
 import AppLayout from './containers/AppLayout';
-import Content from './pages/Content';
+import Content from './views/Content';
 import Navbar from './components/Navbar/Navbar.jsx';
 
 const App = () => {
