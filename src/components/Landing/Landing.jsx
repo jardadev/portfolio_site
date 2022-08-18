@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import './Landing.sass';
