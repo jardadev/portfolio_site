@@ -5,7 +5,7 @@ import './Navbar.sass';
 const Navbar = () => {
 	return (
 		<div className='navbar-ui'>
-			<h1 className='navbar-header'>Jardaaron.me</h1>
+			<h1 className='navbar-header'>Jarda.dev</h1>
 		</div>
 	);
 };
