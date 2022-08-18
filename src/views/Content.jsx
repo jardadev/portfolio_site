@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import MainContentContainer from '../containers/MainContentContainer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { AnimatePresence } from 'framer-motion';
+
 import Landing from '../components/Landing/Landing';
 import './Content.sass';
 
@@ -80,10 +82,12 @@ const Content = () => {
 					/>
 				</Col>
 				<Col>
-					{defaultView && <Landing />}
-					{aboutView && <div>About</div>}
-					{projectsView && <div>Projects</div>}
-					{contactView && <div>Contact</div>}
+					<AnimatePresence>
+						{defaultView && <Landing />}
+						{aboutView && <div>About</div>}
+						{projectsView && <div>Projects</div>}
+						{contactView && <div>Contact</div>}
+					</AnimatePresence>
 				</Col>
 			</Row>
 		</MainContentContainer>
