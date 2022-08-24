@@ -16,8 +16,8 @@ const Landing = () => {
 			</h1>
 			<div>
 				<p>Full Stack Developer 💻</p>
+				<p>U.S. Navy Veteran ⚓️</p>
 				<p>Problem Solver 🧮</p>
-				<p>Music Enthusiast 🎧</p>
 				<p>Lifelong Learner 📝</p>
 			</div>
 			<div>
