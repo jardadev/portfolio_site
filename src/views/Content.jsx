@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { AnimatePresence } from 'framer-motion';
 
 import Landing from '../components/Landing/Landing';
+import About from '../components/About/About';
 import './Content.sass';
 
 const Content = () => {
@@ -84,7 +85,7 @@ const Content = () => {
 				<Col>
 					<AnimatePresence>
 						{defaultView && <Landing />}
-						{aboutView && <div>About</div>}
+						{aboutView && <About />}
 						{projectsView && <div>Projects</div>}
 						{contactView && <div>Contact</div>}
 					</AnimatePresence>
