@@ -4,7 +4,7 @@
 
 <img src='public/assets/images/sitescreenshot.png'>
 - Built with React JS, SASS, and Bootstrap.
-- Deployed via AWS
+- Deployed via Netlify
 
 ## Upcoming updates/features
 
