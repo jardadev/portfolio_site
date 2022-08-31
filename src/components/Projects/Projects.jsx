@@ -16,12 +16,14 @@ const Projects = () => {
 				</Card.Header>
 				<Card.Body>
 					<Card.Text>
-						My portfolio website. Built with React. Deployed via
-						AWS. You are here.
+						My portfolio website. Built with React and React
+						Bootstrap. You are here.
 					</Card.Text>
 					<div className='project-links'>
-					{/* FIXME: add source link */}
-						<a href='#'>Source</a>
+						{/* FIXME: add source link */}
+						<a href='https://github.com/jardaaron/portfolio_site'>
+							Source
+						</a>
 					</div>
 				</Card.Body>
 				<Card.Footer>
@@ -47,7 +49,10 @@ const Projects = () => {
 						and Flask.
 					</Card.Text>
 					<div className='project-links'>
-						<a href='#'>Demo</a> | <a href='#'>Source</a>
+						<a href='#'>Demo</a> |{' '}
+						<a href='https://github.com/jardaaron/ProductivityPy'>
+							Source
+						</a>
 					</div>
 				</Card.Body>
 				<Card.Footer>
