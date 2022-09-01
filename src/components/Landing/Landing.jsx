@@ -17,7 +17,7 @@ const Landing = () => {
 				<img
 					className='cover-img'
 					src='/assets/images/cover.jpg'
-					alt='Aaron Johnson wearing a green shirt, smiling.'
+					alt='Aaron Johnson smiling, wearing a pink shirt'
 				/>
 			</Col>
 			{/* TODO: Span className */}
